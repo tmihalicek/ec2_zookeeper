@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  role_name: ec2_zookeeper
+  author: Tomislav Mihalicek
+  description: Apache ZooKeeper installation for Debian on EC2
+  license: MIT
+  min_ansible_version: 2.16.0
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+  galaxy_tags:
+    - zookeeper
+    - clustering
+
+dependencies: []
